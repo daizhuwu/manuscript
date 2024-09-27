@@ -1,22 +1,87 @@
-body { 
-	color: rgb(154, 191, 249);
-	font-family: 'Poppins', serif;
-	font-size: 16px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    padding-top: 80px;
+    height: 360px;
+    width: auto;
+    /* background-color: #CF9B54; */
+}
+
+.author-info {
+	font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 160%;
+    /* text-align: center; */
+}
+
 h1 {
-	color: plum;
-}
-h2 {
-	color: dodgerblue;
-	font-size: 40px;
-	max-width: 320px;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: "Prata", serif;
+    /* text-align: center; */
 }
 
-p {
-	max-width: 400px;
+.excerpt {
+    font-family: "Abril Fatface", serif;
 }
 
-.introduction-paragraph {
-	font-size: 34px;
-	font-weight: bold;
+footer {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr; /* First column is twice as wide as the second */
+    grid-template-rows: 600px 1000px; /* First row is shorter than the second */
+    gap: 0px; /* Space between grid items */
+}
+
+.box {
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    /* background-color: #f4f4f4; */
+    text-align: left;
+    font-size: 18px;
+}
+
+.box1 {
+    /* background-color: #e3f2fd; */
+    padding-left: 60px;
+}
+
+.box3 {
+    /* background-color: #c8e6c9; */
+    padding-left: 60px;
+}
+
+.box2, .box4{
+	font-family: "Open Sans", sans-serif;
+    line-height: 180%; /* Body copy needs looser vertical spacing. */
+	max-width: 100ch; /* Limit the line-lengths (approximate characters). */
+}
+.excerpt {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 140%;
+    max-width: 20ch;
+    color: #C70039;
+}
+
+em {
+    color: #C70039;
+}
+main  p {
+    margin-bottom: 60px;
 }
