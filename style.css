@@ -30,9 +30,6 @@ h1 {
     /* text-align: center; */
 }
 
-.excerpt {
-    font-family: "Abril Fatface", serif;
-}
 
 footer {
     text-align: center;
@@ -71,17 +68,24 @@ footer {
     line-height: 180%; /* Body copy needs looser vertical spacing. */
 	max-width: 100ch; /* Limit the line-lengths (approximate characters). */
 }
-.excerpt {
-    font-weight: bold;
+.excerpt{
+    font-family: "Abril Fatface", serif;
+	font-weight: bold;
     font-size: 28px;
     line-height: 140%;
     max-width: 20ch;
     color: #C70039;
 }
 
-em {
-    color: #C70039;
-}
 main  p {
     margin-bottom: 60px;
+}
+
+.note {
+	font-family: "Abril Fatface", serif;
+	font-style: italic;
+	font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    max-width: 20ch;
 }
