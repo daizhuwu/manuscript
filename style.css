@@ -101,7 +101,7 @@ main nav li {
     display: inline;
     margin-left: 100px;
     text-decoration: underline;
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
 
@@ -162,7 +162,7 @@ footer p {
     font-size: 28px;
     line-height: 140%;
     max-width: 20ch;
-    color: #C70039;
+    color: #E0333A;
 }
 
 main  p {
@@ -179,7 +179,7 @@ main  p {
 }
 
 .first_letter {
-    color: #C70039;
+    color: #E0333A;
     font-size: 60px;
     font-family: "Playfair Display", serif;
 }
@@ -202,5 +202,5 @@ blockquote {
 cite {
     font-style: italic;
     text-decoration: underline;
-    color:#EC9813;
+    color:#767676;
 }
