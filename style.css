@@ -5,17 +5,21 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
+    font-family: "Montserrat", sans-serif;
     padding: 20px;
 }
 
 header {
     padding-top: 80px;
-    height: 600px;
+    padding-left: 40px;
+    height:800px;
     width: auto;
+    background-color: #E0333A;
+    /* opacity: 80%; */
     /* background-color: #CF9B54; */
     /* color: #E0333A; */
-    border-top: solid black 4px;
+    /* border-top: solid black 4px; */
 }
 
 h1 {
@@ -25,7 +29,7 @@ h1 {
     margin-top: -60px;
     font-family: "Montserrat", sans-serif;
     /* font-weight: bold; */
-    color: #E0333A;
+    color: #fff;
 }
 
 h1 em {
@@ -33,6 +37,10 @@ h1 em {
     font-family: "Playfair Display", serif;
     font-weight: bold;
     font-style: italic;
+    /* text-decoration: underline; */
+    display: inline;
+    border-bottom: 4px solid white;
+    padding-bottom: -200px;
     /* display: block; */
 }
 
@@ -40,47 +48,59 @@ header > p:first-of-type {
     font-family: "GFS Didot", serif;
     font-style: italic;
     font-size: 100px;
-    margin-top: -40px;
+    margin-top: 40px;
     font-weight: thin;
-    color: #E0333A;
+    color: #fff;
+    /* opacity: 0.8; */
 }
 
 header > p:nth-of-type(2) {
     font-family: "Montserrat", sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     margin-top: -20px;
-    margin-bottom: 40px;
+    margin-bottom: 240px;
     font-weight: thin;
     /* display: inline; */
-    color: #E0333A;
+    color: #fff;
 }
 
 header > p:nth-of-type(2) em {
     font-family: "Playfair Display", serif;
     font-weight: bold;
     font-style: italic;
+    border-bottom: 4px solid white;
+    padding-bottom: -200px;
 }
 
 header > p:nth-of-type(3) {
+    /* font-family: "Roboto", sans-serif; */
     font-family: "Montserrat", sans-serif;
-    color: black;
-    font-size: 20px;
+    color: #fff;
+    font-size: 18px;
+    opacity: 0.9;
+    margin-left: 14px;
 }
 header > p:nth-of-type(4) {
+    /* font-family: "Roboto", sans-serif; */
     font-family: "Montserrat", sans-serif;
-    color: black;
-    font-size: 20px;
+    color: #fff;
+    font-size: 18px;
+    opacity: 0.9;
+    margin-left: 14px;
 }
 header > p:nth-of-type(5) {
     font-family: "Montserrat", sans-serif;
-    color: black;
-    font-size: 20px;
+    /* font-family: "Roboto", sans-serif; */
+    color: #fff;
+    font-size: 18px;
+    opacity: 0.9;
+    margin-left: 14px;
 }
 
 main nav {
     width: 100%;
     /* margin-left: 940px; */
-    color: #585656;
+    color: #1a1a1a;
     position: sticky;
     /* top: 30px; */
     background-color: white;
@@ -100,36 +120,34 @@ main nav ul {
 main nav li {
     display: inline;
     margin-left: 100px;
-    text-decoration: underline;
-    font-family: "Montserrat", sans-serif;
+    /* text-decoration: underline; */
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-family: "GFS Didot", serif; */
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
-}
-
-.author-info {
-	font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    line-height: 160%;
-    /* text-align: center; */
 }
 
 
 footer {
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-size: 20px;
     line-height: 160%;
-    border-bottom: solid black 4px;
+    background-color: #E0333A;
+    color: #fff;
+    /* border-bottom: solid black 4px; */
     font-family: "Montserrat", sans-serif;
 }
 
 footer p {
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 2fr 3fr; /* First column is twice as wide as the second */
-    grid-template-rows: 3200px 900px; /* First row is shorter than the second */
+    grid-template-rows: 3300px 900px; /* First row is shorter than the second */
     gap: 0px; /* Space between grid items */
 }
 
@@ -144,6 +162,7 @@ footer p {
 .box1 {
     /* background-color: #e3f2fd; */
     padding-left: 60px;
+    /* border-top: #000 solid 1px; */
 }
 
 .box3 {
@@ -152,15 +171,18 @@ footer p {
 }
 
 .box2, .box4{
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
     line-height: 180%; /* Body copy needs looser vertical spacing. */
 	max-width: 100ch; /* Limit the line-lengths (approximate characters). */
+    font-family: "Montserrat", sans-serif;
 }
 .excerpt{
-    font-family: "Abril Fatface", serif;
+    /* font-family: "Abril Fatface", serif; */
+    font-family: "Playfair Display", serif;
+    /* font-family: "Courier Prime", monospace; */
 	font-weight: bold;
     font-size: 28px;
-    line-height: 140%;
+    line-height: 120%;
     max-width: 20ch;
     color: #E0333A;
 }
@@ -170,37 +192,52 @@ main  p {
 }
 
 .note {
-	font-family: "Abril Fatface", serif;
+	/* font-family: "Abril Fatface", serif; */
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Montserrat", sans-serif;
 	font-style: italic;
 	font-weight: bold;
-    font-size: 20px;
-    line-height: 140%;
+    font-size: 28px;
+    line-height: 120%;
     max-width: 20ch;
+    margin-top: -20px;
 }
 
 .first_letter {
     color: #E0333A;
-    font-size: 60px;
-    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    /* font-family: "Playfair Display", serif; */
+    /* font-family: "Abril Fatface", serif; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-right: -4px;
 }
 
 blockquote {
     padding-left: 60px;
     padding-bottom: 80px;
     font-family: "Playfair Display", serif;
+    /* font-family: "Courier Prime", monospace; */
     font-size: 40px;
-    line-height: 120%;
+    line-height: 110%;
     font-style: italic;
+    max-width: 80%;
+    /* display: inline; */
+    /* border-left: #000 solid 10px; */
 }
 
 .bold {
     font-weight: bold;
-    font-size: 24px;
-    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Montserrat", sans-serif;
 }
 
 cite {
     font-style: italic;
-    text-decoration: underline;
-    color:#767676;
+    /* text-decoration: underline; */
+    /* color:#767676; */
+    color: #000;
+    /* background-color: rgba(224, 51, 58, 0.5);
+    display: inline; */
 }
